@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theralive - Videos de Terapia</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="stylesheet" href="Estilos/sube.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra 1 -->
+    <nav class="navbar">
+        <div class="logoMarca">
+            <a href="index.html"><img src="imagenes/TheraLives logo.jpg" alt="Theralive Logo" class="logo" ></a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="links-barra">
+            <a href="index.html" class="inicio">INICIO</a>
+            <a href="quienessomos.html" class="quienes-somos">QUIENES SOMOS</a>
+            <a href="contactanos.html" class="contactanos">CONTACTANOS</a>
+        </div>
+        <div class="cuadroUsuario">
+            <a href="#" class="usuario">  Usuario </a>
+        </div>
+    </nav>
+
+    <!-- Barra 2 -->
+    <nav class="navbar2">
+        <div class="navbar2-enlace">
+            <a href="#">Lo más popular</a>
+            <a href="#">Comunidad</a>
+            <button class="btn-subir">
+                <a   href="subir.html" >Sube tu Video</a> 
+            </button>
+        </div>
+        <div class="bar-busqueda">
+            <input type="text" placeholder="Buscar">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+    <div class="upload-container">
+        <div class="header">
+            <a href="#" class="back-button">
+                <i class="fas fa-chevron-left"></i>
+                <span>Subir Video</span>
+            </a>
+        </div>
+
+        <div class="upload-section">
+            <div class="upload-box">
+                <div class="upload-options">
+                    <div class="upload-option">
+                        <i class="fas fa-camera"></i>
+                        <button class="upload-btn green">Grabar Video</button>
+                    </div>
+                    <div class="upload-option">
+                        <i class="fas fa-plus"></i>
+                        <button class="upload-btn green">Añadir Video</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <textarea placeholder="Escriba una descripción"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Etiqueta</label>
+                    <select>
+                        <option value="" disabled selected>Seleccione la terapia correspondiente</option>
+                        <option value="fisica">Terapia Física</option>
+                        <option value="ocupacional">Terapia Ocupacional</option>
+                        <option value="lenguaje">Terapia de Lenguaje</option>
+                    </select>
+                </div>
+
+                <button class="save-btn green">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="fun.js"></script>
+</body>
+</html>

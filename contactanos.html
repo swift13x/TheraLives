@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theralive - Videos de Terapia</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="stylesheet" href="Estilos/quienessomos.css">
+    <link rel="stylesheet" href="Estilos/contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra 1 -->
+    <nav class="navbar">
+        <div class="logoMarca">
+            <a href="index.html"><img src="imagenes/TheraLives logo.jpg" alt="Theralive Logo" class="logo" ></a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="links-barra">
+            <a href="index.html" class="inicio">INICIO</a>
+            <a href="quienessomos.html" class="quienes-somos">QUIENES SOMOS</a>
+            <a href="contactanos.html" class="contactanos">CONTACTANOS</a>
+        </div>
+        <div class="cuadroUsuario">
+            <a href="#" class="usuario">  Usuario </a>
+        </div>
+    </nav>
+
+    <!-- Barra 2 -->
+    <nav class="navbar2">
+        <div class="navbar2-enlace">
+            <a href="#">Lo más popular</a>
+            <a href="#">Comunidad</a>
+            <button class="btn-subir">
+                <a   href="subir.html" >Sube tu Video</a> 
+            </button>
+        </div>
+        <div class="bar-busqueda">
+            <input type="text" placeholder="Buscar">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+
+    <section class="contenedor1">
+        <div class="contenedor-form">
+            <div class="imgform">
+                <img src="imagenes/terapia.jpg" alt="Sesión de terapia física" />
+            </div>
+            <div class="form-wrapper">
+                <h2>Rellene el formulario</h2>
+                <form name="form-c" method="post" action="">
+                    <div class="espacio">
+                        <div class="form-cajaT">
+                            <input type="text" name="nombre" placeholder="Ingrese su nombre:" />
+                        </div>
+                        <div class="form-cajaT">
+                            <input type="text" name="apellido" placeholder="Ingrese su apellido:" />
+                        </div>
+                    </div>
+                    
+                    <div class="espacio">
+                        <div class="form-cajaT">
+                            <input type="text" name="ciudad" placeholder="Ingrese su ciudad:" />
+                        </div>
+                        <div class="form-cajaT">
+                            <input type="text" name="pais" placeholder="Ingrese su país:" />
+                        </div>
+                    </div>
+                    
+                    <div class="form-cajaT full-width">
+                        <input type="email" name="email" placeholder="Ingrese su correo electrónico:" />
+                    </div>
+                    
+                    <div class="form-cajaT full-width">
+                        <textarea name="problema" placeholder="Breve descripción de su problema:"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Enviar</button>
+                    
+                    <div class="redes">
+                        <p>Más información en:</p>
+                        <div class="iconos-redes">
+                            <a href="#" class="iconos-redes"><img src="imagenes/icons8-whatsapp-48.png" alt="WhatsApp"></a>
+                            <a href="#" class="iconos-redes"><img src="imagenes/icons8-instagram-94.png" alt="Instagram"></a>
+                            <a href="#" class="iconos-redes"><img src="imagenes/icons8-facebook-48.png" alt="Facebook"></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="fun.js"></script>
+</body>
+</html>
