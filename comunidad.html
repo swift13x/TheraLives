@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theralive - Videos de Terapia</title>
+    <link rel="stylesheet" href="Estilos/estilos.css" />
+    <link rel="stylesheet" href="Estilos/comunidad.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Barra 1 -->
+    <nav class="navbar">
+      <div class="logoMarca">
+        <a href="index.html"
+          ><img
+            src="imagenes/TheraLives logo.jpg"
+            alt="Theralive Logo"
+            class="logo"
+        /></a>
+      </div>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="links-barra">
+        <a href="index.html" class="inicio">INICIO</a>
+        <a href="quienessomos.html" class="quienes-somos">QUIENES SOMOS</a>
+        <a href="contactanos.html" class="contactanos">CONTACTANOS</a>
+      </div>
+      <div class="cuadroUsuario">
+        <a href="#" class="usuario"> Usuario </a>
+      </div>
+    </nav>
+
+    <!-- Barra 2 -->
+    <nav class="navbar2">
+      <div class="navbar2-enlace">
+        <a href="#">Lo más popular</a>
+        <a href="#">Comunidad</a>
+        <button class="btn-subir">
+          <a href="subir.html">Sube tu Video</a>
+        </button>
+      </div>
+      <div class="bar-busqueda">
+        <input type="text" placeholder="Buscar" />
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+    <!--Section  Comunidad-->
+    <main class="comunidad-section">
+      <h1>Muro de Comentarios</h1>
+      <p>Comparte tus opiniones y comentarios sobre TheraLives.</p>
+      <div class="comentarios-form">
+        <textarea id="comentarioTexto" placeholder="Escribe tu comentario..."></textarea>
+        <button id="enviarComentario">Enviar</button>
+      </div>
+      
+      <!--Comentarios-->
+      <div id="muroComentarios" class="comentarios-wall">
+        <div class="comentarios">
+          <p>
+            <strong>Lucas:</strong> TheraLives ha mejorado mucho mi experiencia de terapia. Anteriormente tuve una lesión grave haciendo deporte y he llevado una terapía cómoda desde mi hogar, evitando sobreesfuerzo de ir a la clínica. Igualmente un médico terapista me asiste para realizarme chequeos. ¡Estoy muy agradecido!
+          </p>
+          <div class="respuestas">
+            <div class="respuestas_a">
+              <p>
+                <strong>Mariana:</strong> ¡Me alegra escuchar eso! A mí también me ha ayudado mucho.
+              </p>
+            </div>
+            <div class="respuestas_a">
+              <p>
+                <strong>Mario:</strong> Me siento igual, ha sido una gran herramienta para mí.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="comentarios">
+          <p>
+            <strong>Juan:</strong> La plataforma es muy fácil de usar, y el soporte ha sido excelente.
+          </p>
+          <div class="respuestas">
+            <div class="respuestas_a">
+              <p>
+                <strong>José:</strong> Estoy de acuerdo, me ha facilitado mucho la vida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <script src="comunidad.js"></script>
+
+  </body>
+</html>

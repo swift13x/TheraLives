@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="Estilos/formulario.css" />
+  </head>
+  <body>
+    <section class="Login">
+      <div id="Section-Inscrip">
+        <div class="Container-login">
+          <form name="frm" method="post" action="">
+            <fieldset id="lorm">
+              <legend>Formulario de Registro</legend>
+              <ol>
+                <li>
+                  <label>Nombres y Apellidos:</label
+                  ><input type="text" name="Lname" size="30" />
+                </li>
+                <li>
+                  <label>Edad:</label
+                  ><input type="text" name="Ledad" size="30" />
+                </li>
+                <li>
+                  <label>Telefono:</label
+                  ><input type="text" name="Lphone" size="30" />
+                </li>
+                <li>
+                  <label>Email:</label
+                  ><input type="text" name="Lemail" size="30" />
+                </li>
+                <li>
+                  <label>Contraseña:</label
+                  ><input type="text" name="Lcontr" size="30" />
+                </li>
+                <li>
+                  <label>Tipo de Usuario</label>
+                  <select>
+                    <option value="">Seleccione...</option>
+                    <option value="Paciente">Paciente</option>
+                    <option value="Medico">Medico</option>
+                  </select>
+                </li>
+              </ol>
+              <input
+                type="submit"
+                name="btn.f.incripcion"
+                value="Registro"
+                class="styled-button"
+              />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

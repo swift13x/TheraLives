@@ -1,0 +1,70 @@
+.Login {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  
+  #Seccion-Inscrip {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(232, 19, 19, 0.1);
+  }
+  
+  legend {
+    font-size: 1.8em;
+    color: #7e4400;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 140px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  input[type="radio"] {
+    margin-left: 10px;
+  }
+  
+  .styled-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #cd8124;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-button:hover {
+    background-color: #d97c0b;
+  }
+  
